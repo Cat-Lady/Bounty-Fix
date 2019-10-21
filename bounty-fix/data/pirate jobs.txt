@@ -22,7 +22,7 @@ mission "Eliminating Competition (North, Small)"
 		attributes "north pirate"
 	npc kill
 		government Pirate
-		personality heroic staying target marked
+		personality heroic staying target nemesis opportunistic
 		system
 			distance 1 2
 		fleet "Small Northern Pirates" 4
@@ -44,7 +44,7 @@ mission "Eliminating Competition (North, Large)"
 		attributes "north pirate"
 	npc kill
 		government Pirate
-		personality heroic staying target marked
+		personality heroic staying target nemesis opportunistic
 		system
 			distance 1 3
 		fleet "Large Northern Pirates" 2
@@ -67,7 +67,7 @@ mission "Eliminating Competition (Core, Small)"
 		attributes "core pirate"
 	npc kill
 		government Pirate
-		personality heroic staying target marked
+		personality heroic staying target nemesis opportunistic
 		system
 			distance 1 2
 		fleet "Small Core Pirates" 4
@@ -89,7 +89,7 @@ mission "Eliminating Competition (Core, Large)"
 		attributes "core pirate"
 	npc kill
 		government Pirate
-		personality heroic staying target marked
+		personality heroic staying target nemesis opportunistic
 		system
 			distance 1 3
 		fleet "Large Core Pirates" 2
@@ -112,7 +112,7 @@ mission "Eliminating Competition (South, Small)"
 		attributes "south pirate"
 	npc kill
 		government Pirate
-		personality heroic staying target marked
+		personality heroic staying target nemesis opportunistic
 		system
 			distance 1 2
 		fleet "Small Southern Pirates" 4
@@ -134,7 +134,7 @@ mission "Eliminating Competition (South, Large)"
 		attributes "south pirate"
 	npc kill
 		government Pirate
-		personality heroic staying target marked
+		personality heroic staying target nemesis opportunistic
 		system
 			distance 1 3
 		fleet "Large Southern Pirates" 2
@@ -167,7 +167,7 @@ mission "Hunted by State [0]"
 		never
 	npc save
 		government "Bounty Hunter"
-		personality heroic plunders
+		personality heroic waiting unconstrained plunders nemesis opportunistic
 		system
 			distance 5 5
 		fleet "Bounty Hunters"
@@ -193,7 +193,7 @@ mission "Hunted by State [1]"
 		never
 	npc save
 		government "Bounty Hunter"
-		personality heroic plunders
+		personality heroic waiting unconstrained plunders nemesis opportunistic
 		system
 			distance 5 5
 		fleet "Hired Guns"
