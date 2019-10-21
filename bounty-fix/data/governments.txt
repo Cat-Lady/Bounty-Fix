@@ -21,6 +21,30 @@ government "Bounty"
 		"Syndicate" -.01
 	"hostile hail" "hostile bounty"
 
+government "Bounty Hunter"
+	swizzle 6
+	color .78 0 0
+	"player reputation" -1000
+	"bribe" .2
+	"fine" 0
+	"attitude toward"
+		"Pirate" -.01
+	"hostile hail" "hostile bounty hunter"
+
+government "Marauder Bounty Hunter"
+	swizzle 6
+	color .78 0 0
+	"player reputation" -1000
+	"bribe" .2
+	"fine" 0
+	"attitude toward"
+		"Author" -.01
+		"Hai" -.01
+		"Korath" -.01
+		"Merchant" -.1
+		"Syndicate" -.01
+	"hostile hail" "hostile bounty hunter"
+
 government "Deep Security"
 	swizzle 0
 	"player reputation" 1
@@ -28,6 +52,7 @@ government "Deep Security"
 		"Merchant" .5
 		"Pirate" -.2
 		"Bounty" -.2
+		"Marauder Bounty Hunter" -.2
 	"friendly hail" "friendly deep"
 	"hostile hail" "hostile deep"
 
@@ -40,6 +65,7 @@ government "Free Worlds"
 		"Merchant" .3
 		"Militia" .3
 		"Pirate" -.4
+		"Marauder Bounty Hunter" -.4
 		"Neutral" .1
 		"Bounty" -.4
 	"bribe" .1
@@ -53,6 +79,7 @@ government "Merchant"
 	"player reputation" 10
 	"attitude toward"
 		"Pirate" -.2
+		"Marauder Bounty Hunter" -.2
 		"Korath" -.2
 		"Bounty" -.2
 	"bribe" .05
@@ -68,6 +95,7 @@ government "Militia"
 	"attitude toward"
 		"Merchant" .3
 		"Pirate" -.4
+		"Marauder Bounty Hunter" -.4
 		"Bounty" -.4
 	"bribe" .1
 	"friendly hail" "friendly militia"
@@ -80,6 +108,7 @@ government "Navy Intelligence"
 	"attitude toward"
 		"Syndicate" -.1
 		"Pirate" -.3
+		"Marauder Bounty Hunter" -.3
 		"Bounty" -.3
 
 government "Navy (Oathkeeper)"
@@ -94,6 +123,7 @@ government "Navy (Oathkeeper)"
 		"Merchant" .25
 		"Militia" .1
 		"Pirate" -.3
+		"Marauder Bounty Hunter" -.3
 		"Bounty" -.3
 		"Kor Sestor" -.1
 		"Kor Mereti" -.1
@@ -109,6 +139,7 @@ government "Neutral"
 	"attitude toward"
 		"Merchant" .3
 		"Pirate" -.2
+		"Marauder Bounty Hunter" -.2
 		"Bounty" -.2
 	"bribe" .05
 	"friendly hail" "friendly civilian"
@@ -127,8 +158,28 @@ government "Quarg"
 		"Kor Sestor" -.01
 		"Hai" .01
 		"Pirate" -.01
+		"Marauder Bounty Hunter" -.01
 		"Bounty" -.01
 	"hostile hail" "hostile quarg"
+
+government "Pirate"
+	swizzle 6
+	color .78 0 0
+	
+	"player reputation" -10
+	"attitude toward"
+		"Author" -.01
+		"Hai" -.01
+		"Korath" -.01
+		"Merchant" -.1
+		"Syndicate" -.01
+		"Bounty Hunter" -.01
+		"Marauder Bounty Hunter" .01
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly pirate"
+	"hostile hail" "hostile pirate"
+	raid "pirate raid"
 
 government "Republic"
 	swizzle 0
@@ -142,6 +193,7 @@ government "Republic"
 		"Merchant" .25
 		"Militia" .1
 		"Pirate" -.3
+		"Marauder Bounty Hunter" -.3
 		"Bounty" -.3
 		"Navy Intelligence" 1
 		"Navy (Oathkeeper)" 1
@@ -158,6 +210,7 @@ government "Syndicate"
 	"attitude toward"
 		"Merchant" .3
 		"Pirate" -.4
+		"Marauder Bounty Hunter" -.4
 		"Bounty" -.4
 		"Korath" -.5
 	"bribe" .08
