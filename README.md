@@ -23,7 +23,7 @@ https://github.com/Cat-Lady/Bounty-Fix/releases
 ...for latest, pre-packaged version.
 
 
-**1.** Unpack ``bounty-fix`` to your ES plugins folder. Be sure that you have single ``bounty-fix`` directory inside your plugin folder, containing ``data`` directory. Directory structure should look like:
+**1.** Unpack ``bounty-fix`` to your ES plugins folder. Be sure that you have single ``bounty-fix`` directory inside your plugins folder, containing ``data`` directory. Directory structure should look like:
 
 ```(...)/plugins/bounty-fix/(.../data/, and other stuff)```
 
