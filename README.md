@@ -24,10 +24,14 @@ https://github.com/Cat-Lady/Bounty-Fix/releases
 
 
 **1.** Unpack ``bounty-fix`` to your ES plugins folder. Be sure that you have single ``bounty-fix`` directory inside your plugin folder, containing ``data`` directory. Directory structure should look like:
+
 ```(...)/plugins/boarding-enhancements/(.../data/, and other stuff)```
 
+
 It **won't** work if the directory structure will be anything like:
+
 ```(...)/plugins/Bounty-Fix/bounty-fix/(...)```
+
 
 **2.** Use files from ``vanilla-files-replace`` directory to replace files in your ES installation's ``/data/`` directory. Overwrite files when prompted.
 
