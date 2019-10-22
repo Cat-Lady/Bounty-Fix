@@ -2,7 +2,7 @@
 
 This plugin makes Pirates/Marauders that are subject of Bounty Hunting missions be properly seen as enemies by Militia/Navy/Deep Security/Merchants and other forces that should dislike Marauders/Pirates.
 
-
+![Marauder Image](/bounty-fix/icon.png?raw=true "Marauder Image")
 
 
 ## Features
