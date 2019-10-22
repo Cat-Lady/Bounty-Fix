@@ -15,7 +15,7 @@ This plugin makes Pirates/Marauders that are subject of Bounty Hunting missions 
 
 
 
-### Installing
+## Installing
 
 Check:
 https://github.com/Cat-Lady/Bounty-Fix/releases
