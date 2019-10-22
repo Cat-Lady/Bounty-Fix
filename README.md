@@ -25,7 +25,7 @@ https://github.com/Cat-Lady/Bounty-Fix/releases
 
 **1.** Unpack ``bounty-fix`` to your ES plugins folder. Be sure that you have single ``bounty-fix`` directory inside your plugin folder, containing ``data`` directory. Directory structure should look like:
 
-```(...)/plugins/boarding-enhancements/(.../data/, and other stuff)```
+```(...)/plugins/bounty-fix/(.../data/, and other stuff)```
 
 
 It **won't** work if the directory structure will be anything like:
@@ -37,7 +37,7 @@ It **won't** work if the directory structure will be anything like:
 
 Do **not** put ``vanilla-files-replace`` inside your ``/data/`` directory - it won't work like that. You need to directly replace approriate files with plugin's ones.
 
-You can skip step **#2.**, but some variants of Marauder ships (that should be one of toughtest nuts to crack while boarding) won't have new outfits. This step of replacing vanilla files is (hopefully) temporary workaround around limitation in ES plugin's framework - I'm already actively working with upstream to fix it, so there is a chance it won't be necessary in future (instructions and "Release" notes will higlight when that will become reality).
+This step is (hopefully) temporary - it works around issue in ES plugin framework, that is worked on already. Hopefully, in future, replacing vanilla data files manually won't be needed (instructions will be updated and new version released, if that ever happen).
 
 
 ## Author
