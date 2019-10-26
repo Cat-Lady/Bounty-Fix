@@ -52,5 +52,7 @@ This project is licensed under the GPL3 License - see the [LICENSE.md](LICENSE.m
 ## Acknowledgments
 
 "Endless Sky" Development Team and Michael Zahniser; For maintaining and creating the game
+
 Anarchist - For doing preliminary tests of NPCs reaction to "marked" and "nemesis" personalities.
+
 Zitchas - for hinting me into right direction, by mentioning the "nemesis" and "marked" NPC personality types
