@@ -1,0 +1,49 @@
+[h1]This plugin is a part of upcoming "Endless Sky: Captain's Edition" reboot of the base game. Stay tuned - meanwhile, installing the plugins can help to preview the experience, together or in parts.[/h1]
+
+This plugin makes Pirates/Marauders that are subject of Bounty Hunting missions be properly seen as enemies by Militia/Navy/Deep Security/Merchants and other forces that should dislike Marauders/Pirates.
+
+
+[h1]Features[/h1]
+
+[list][*]Militia/Navy/other law enforcement will no longer "pick their noses" watching as pirates plunder your merchant fleet in their system, just because said pirates have a bounty on their head that you want to collect.
+
+[*]Bounty hunter/bounty "prizes" wills till focus on player and player's ships whenever possible, but they will now actually defend themselves from other attackers, too.
+
+[*]Bounty hunters paid by government to hunt pirate player and bounty hunters paid by pirates to hunt law-abiding player were split into separate "factions", with separate likes/disliked - unlike vanilla implementation, where they are same "group"...
+
+
+[h1]Installing[/h1]
+
+Check:
+https://github.com/Cat-Lady/Bounty-Fix/releases
+
+...for latest, pre-packaged version.
+
+
+[b]1.[/b] Use files from [i]vanilla-files-replace[/i] directory to replace files in your ES installation's [i]/data/[/i] directory. Overwrite files when prompted.
+
+Do [b]not[/b] put [i]vanilla-files-replace[/i] inside your [i]/data/[/i] directory - it won't work like that. You need to directly replace appropriate files with plugin's ones.
+
+This step of replacing vanilla files is result of ES incomplete ability to handle plugin's data (not replacing vanilla ship variants), and without the project issuing a fix, nothing can be done to remedy the necessity.
+
+
+
+[h1]Author[/h1]
+
+[list][*][b]Cat Lady[/b][/list]
+
+
+
+[h1]License[/h1]
+
+This project is licensed under the GPL3 License - see the LICENSE.md file for details.
+
+
+
+[h1]Acknowledgments[/h1]
+
+"Endless Sky" Development Team and Michael Zahniser; For maintaining and creating the game
+
+Anarchist - For doing preliminary tests of NPCs reaction to "marked" and "nemesis" personalities.
+
+Zitchas - for hinting me into right direction, by mentioning the "nemesis" and "marked" NPC personality types.

@@ -39,7 +39,6 @@ government "Bounty Hunter"
 	"fine" 0
 	"attitude toward"
 		"Pirate" -.01
-		"Escort" -.01
 	"hostile hail" "hostile bounty hunter"
 
 government "Marauder Bounty Hunter"
